@@ -12515,3 +12515,28 @@ fieldset:disabled .btn {
         display: none !important
     }
 }
+#bar {
+    margin-right: 52%; /* Default for desktop/laptop */
+}
+
+/* Adjust for tablets */
+@media (max-width: 1024px) {  
+    #bar {
+        margin-right: 40%; /* Reduce margin for tablets */
+    }
+}
+
+/* Adjust for mobile screens */
+@media (max-width: 768px) {  
+    #bar {
+        margin-right: 30%; /* Reduce margin for mobile */
+    }
+}
+
+/* Adjust for very small mobile screens */
+@media (max-width: 480px) {  
+    #bar {
+        margin-right: 20%; /* Reduce further for very small screens */
+    }
+}
+
