@@ -12536,7 +12536,7 @@ fieldset:disabled .btn {
 /* Adjust for very small mobile screens */
 @media (max-width: 480px) {  
     #bar {
-        margin-right: 40%; /* Reduce further for very small screens */
+        margin-right: 1%; /* Reduce further for very small screens */
     }
 }
 
