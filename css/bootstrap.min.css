@@ -12522,14 +12522,14 @@ fieldset:disabled .btn {
 /* Adjust for tablets */
 @media (max-width: 1024px) {  
     #bar {
-        margin-right: 40%; /* Reduce margin for tablets */
+        margin-right: 1%; /* Reduce margin for tablets */
     }
 }
 
 /* Adjust for mobile screens */
 @media (max-width: 768px) {  
     #bar {
-        margin-right: 40%; /* Reduce margin for mobile */
+        margin-right: 1%; /* Reduce margin for mobile */
     }
 }
 
