@@ -12541,7 +12541,7 @@ fieldset:disabled .btn {
 }
 
 #pbar {
-    width: 59% !important; /* Default for desktop/laptop */
+    width: 52% !important; /* Default for desktop/laptop */
 }
 
 /* Adjust for tablets */
