@@ -12540,3 +12540,28 @@ fieldset:disabled .btn {
     }
 }
 
+#pbar {
+    width: 49% !important; /* Default for desktop/laptop */
+}
+
+/* Adjust for tablets */
+@media (max-width: 1024px) {  
+    #pbar {
+        width: 45% !important; /* Reduce width for tablets */
+    }
+}
+
+/* Adjust for mobile screens */
+@media (max-width: 768px) {  
+    #pbar {
+        width: 40% !important; /* Adjust for mobile */
+    }
+}
+
+/* Adjust for very small mobile screens */
+@media (max-width: 480px) {  
+    #pbar {
+        width: 35% !important; /* Reduce for small screens */
+    }
+}
+
