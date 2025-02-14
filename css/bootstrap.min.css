@@ -12547,7 +12547,7 @@ fieldset:disabled .btn {
 /* Adjust for tablets */
 @media (max-width: 1024px) {  
     #pbar {
-        width: 1% !important; /* Reduce width for tablets */
+        width: 49% !important; /* Reduce width for tablets */
     }
 }
 
