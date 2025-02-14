@@ -12561,7 +12561,7 @@ fieldset:disabled .btn {
 /* Adjust for very small mobile screens */
 @media (max-width: 480px) {  
     #pbar {
-        width: 1% !important; /* Reduce for small screens */
+        width: 100% !important; /* Reduce for small screens */
     }
 }
 
